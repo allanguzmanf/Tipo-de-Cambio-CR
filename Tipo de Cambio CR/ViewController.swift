@@ -98,14 +98,15 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         return cell
         
     }
-     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-            tableView.deselectRow(at: indexPath, animated: true)
-            let vc = storyboard?.instantiateViewController(identifier:  "calculadora") as! CalculadoraViewController
-//        vc.prVenta.text = precioVenta[indexPath.row]
-        
-        present(vc, animated: true)
-            
-    }
+       func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+               tableView.deselectRow(at: indexPath, animated: true)
+               let vc = storyboard?.instantiateViewController(identifier:  "calculadora") as! CalculadoraViewController
+          
+           vc.prCompraText = String(precioCompra[indexPath.row])
+           vc.prVentaText =  String(precioVenta[indexPath.row])
+           present(vc, animated: true)
+               
+       }
     func mejores() {
         mejorCompra.text = String(precioCompra.max()!)
         mejorVenta.text = String(precioVenta.min()!)

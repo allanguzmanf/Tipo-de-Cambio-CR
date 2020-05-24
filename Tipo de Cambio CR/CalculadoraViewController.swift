@@ -15,12 +15,16 @@ class CalculadoraViewController: UIViewController {
     @IBOutlet weak var montoCRC: UITextField!
     @IBOutlet weak var prVenta: UILabel!
     @IBOutlet weak var prCompra: UILabel!
+    var prVentaText:String!
+     var prCompraText:String!
+    
     
     override func viewDidLoad() {
-//        let vc1 = storyboard?.instantiateViewController(identifier: "home") as! ViewController
-//        vc1.completionHandler = { text in
-//            self.prVenta.text = "Venta\(String(describing: text))"
-//        }
+
+        prVenta.text = prVentaText
+        prCompra.text = prCompraText
+        
+        
         montoUSD.placeholder = montoCRC.text
         super.viewDidLoad()
     }
