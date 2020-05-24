@@ -79,7 +79,6 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
          } catch {
              print("")
        }
-        print(precioVenta)
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -102,14 +101,21 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
                tableView.deselectRow(at: indexPath, animated: true)
                let vc = storyboard?.instantiateViewController(identifier:  "calculadora") as! CalculadoraViewController
           
-           vc.prCompraText = String(precioCompra[indexPath.row])
-           vc.prVentaText =  String(precioVenta[indexPath.row])
+           vc.prCompraText = """
+                Compra
+                ₡\(String(precioCompra[indexPath.row]))
+                """
+           vc.prVentaText =  """
+                Venta
+                ₡\(String(precioVenta[indexPath.row]))
+                """
+            vc.nombreBancoCalcText =  String(banco[indexPath.row])
            present(vc, animated: true)
                
        }
     func mejores() {
-        mejorCompra.text = String(precioCompra.max()!)
-        mejorVenta.text = String(precioVenta.min()!)
+        mejorCompra.text = "₡\(String(precioCompra.max()!))"
+        mejorVenta.text = "₡\(String(precioVenta.min()!))"
         let indexMejorCompra = precioCompra.firstIndex(of: precioCompra.max()!)
         let indexMejorVenta = precioVenta.firstIndex(of: precioVenta.min()!)
         mejorVentaBanco.text = banco[indexMejorVenta!]

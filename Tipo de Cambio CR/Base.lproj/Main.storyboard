@@ -102,26 +102,26 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Uqn-DL-h5T">
-                                                    <rect key="frame" x="30" y="27.5" width="354" height="20.5"/>
+                                                    <rect key="frame" x="30" y="25.5" width="354" height="24"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="String 1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eDO-BT-Km8">
-                                                            <rect key="frame" x="0.0" y="0.0" width="204" height="20.5"/>
-                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="204" height="24"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="QKV-JN-SEL">
-                                                            <rect key="frame" x="204" y="0.0" width="150" height="20.5"/>
+                                                            <rect key="frame" x="204" y="0.0" width="150" height="24"/>
                                                             <subviews>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="String 2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9VX-Hd-0I8" userLabel="PrV">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="72.5" height="20.5"/>
-                                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                    <rect key="frame" x="0.0" y="0.0" width="72.5" height="24"/>
+                                                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                                     <nil key="textColor"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="String 3" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B1z-1n-fv5" userLabel="PrC">
-                                                                    <rect key="frame" x="77.5" y="0.0" width="72.5" height="20.5"/>
-                                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                    <rect key="frame" x="77.5" y="0.0" width="72.5" height="24"/>
+                                                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                                     <nil key="textColor"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
@@ -216,31 +216,31 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalCentering" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="pjM-hY-nNJ">
-                                <rect key="frame" x="15" y="350" width="384" height="196.5"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalCentering" translatesAutoresizingMaskIntoConstraints="NO" id="pjM-hY-nNJ">
+                                <rect key="frame" x="20" y="255.5" width="374" height="186"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Qyr-Pf-DUu">
-                                        <rect key="frame" x="0.0" y="0.0" width="384" height="71.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="86"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6fi-BN-h3M">
-                                                <rect key="frame" x="0.0" y="0.0" width="384" height="20.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="374" height="25.5"/>
                                                 <string key="text" base64-UTF8="YES">
 Q29udmVyc29yIGRlIG1vbmVkYXMDA
 </string>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ingrese el monto que desea convertir en el siguiente espacio" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jHG-To-FiR">
-                                                <rect key="frame" x="0.0" y="30.5" width="384" height="41"/>
-                                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="17"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ingrese el monto que desea convertir en el siguiente espacio:" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jHG-To-FiR">
+                                                <rect key="frame" x="0.0" y="35.5" width="374" height="50.5"/>
+                                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="21"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Rv4-GV-xFB">
-                                        <rect key="frame" x="0.0" y="96.5" width="384" height="100"/>
+                                        <rect key="frame" x="0.0" y="86" width="374" height="100"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GZe-Vf-XWm">
                                                 <rect key="frame" x="0.0" y="25" width="35" height="50"/>
@@ -249,39 +249,42 @@ Q29udmVyc29yIGRlIG1vbmVkYXMDA
                                                     <constraint firstAttribute="height" constant="50" id="zwS-bd-Z1l"/>
                                                 </constraints>
                                                 <state key="normal" image="arrow.up.arrow.down" catalog="system"/>
+                                                <connections>
+                                                    <action selector="swapButton:" destination="JqF-Bn-N5h" eventType="touchUpInside" id="AbH-dr-wyw"/>
+                                                </connections>
                                             </button>
-                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="HVk-e6-RZe">
-                                                <rect key="frame" x="35" y="16" width="349" height="68"/>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="HVk-e6-RZe">
+                                                <rect key="frame" x="35" y="19.5" width="339" height="61"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="n4p-hn-Pyv">
-                                                        <rect key="frame" x="0.0" y="0.0" width="349" height="34"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="339" height="25.5"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CRC" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oYe-iG-PGj">
-                                                                <rect key="frame" x="0.0" y="0.0" width="34.5" height="34"/>
-                                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="35" height="25.5"/>
+                                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
-                                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="₡ 0.00" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="RWT-7f-w2j">
-                                                                <rect key="frame" x="34.5" y="0.0" width="314.5" height="34"/>
-                                                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" placeholder="₡ 0.00" textAlignment="right" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="RWT-7f-w2j">
+                                                                <rect key="frame" x="35" y="0.0" width="304" height="25.5"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                                <textInputTraits key="textInputTraits" spellCheckingType="no" keyboardType="numberPad" returnKeyType="done" enablesReturnKeyAutomatically="YES" smartDashesType="yes" smartInsertDeleteType="yes"/>
                                                             </textField>
                                                         </subviews>
                                                     </stackView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jul-5r-DZk">
-                                                        <rect key="frame" x="0.0" y="34" width="349" height="34"/>
+                                                        <rect key="frame" x="0.0" y="35.5" width="339" height="25.5"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="USD" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1RW-lz-LDc">
-                                                                <rect key="frame" x="0.0" y="0.0" width="35" height="34"/>
-                                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="35.5" height="25.5"/>
+                                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
-                                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="$ 0.00" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="K3i-EV-yUj">
-                                                                <rect key="frame" x="35" y="0.0" width="314" height="34"/>
-                                                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                                                <textInputTraits key="textInputTraits"/>
+                                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" placeholder="$ 0.00" textAlignment="right" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="K3i-EV-yUj">
+                                                                <rect key="frame" x="35.5" y="0.0" width="303.5" height="25.5"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                                <textInputTraits key="textInputTraits" keyboardType="numberPad" returnKeyType="done"/>
                                                             </textField>
                                                         </subviews>
                                                     </stackView>
@@ -294,54 +297,64 @@ Q29udmVyc29yIGRlIG1vbmVkYXMDA
                                     </stackView>
                                 </subviews>
                             </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="Fsu-2J-GsH">
-                                <rect key="frame" x="15" y="265" width="384" height="60"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Fsu-2J-GsH">
+                                <rect key="frame" x="15" y="169.5" width="384" height="61"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="String 4" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XcI-EX-SRz">
-                                        <rect key="frame" x="0.0" y="0.0" width="384" height="30"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tipo de Cambio" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XcI-EX-SRz">
+                                        <rect key="frame" x="0.0" y="0.0" width="384" height="25.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="kRy-TG-Inu">
-                                        <rect key="frame" x="0.0" y="30" width="384" height="30"/>
+                                        <rect key="frame" x="0.0" y="35.5" width="384" height="25.5"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="String 5" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ffs-Ju-AQz">
-                                                <rect key="frame" x="0.0" y="0.0" width="192" height="30"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="String 6" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oLS-QC-ftp">
+                                                <rect key="frame" x="0.0" y="0.0" width="192" height="25.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="String 6" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oLS-QC-ftp">
-                                                <rect key="frame" x="192" y="0.0" width="192" height="30"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="String 5" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ffs-Ju-AQz">
+                                                <rect key="frame" x="192" y="0.0" width="192" height="25.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
                                     </stackView>
                                 </subviews>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="60" id="4H0-ao-wys"/>
-                                </constraints>
                             </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0c7-am-fpI">
+                                <rect key="frame" x="182" y="94" width="50" height="25.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstAttribute="trailing" secondItem="pjM-hY-nNJ" secondAttribute="trailing" constant="20" id="7HW-p5-wka"/>
                             <constraint firstItem="pjM-hY-nNJ" firstAttribute="top" secondItem="Fsu-2J-GsH" secondAttribute="bottom" constant="25" id="7zj-HR-4q0"/>
-                            <constraint firstItem="pjM-hY-nNJ" firstAttribute="leading" secondItem="jwA-TR-QOh" secondAttribute="leading" constant="15" id="UUp-my-IKy"/>
+                            <constraint firstItem="pjM-hY-nNJ" firstAttribute="centerX" secondItem="0bi-xZ-lD1" secondAttribute="centerX" id="BuL-yN-pSB"/>
+                            <constraint firstItem="0c7-am-fpI" firstAttribute="top" secondItem="jwA-TR-QOh" secondAttribute="top" constant="50" id="Fos-gr-C4R"/>
+                            <constraint firstItem="0c7-am-fpI" firstAttribute="centerX" secondItem="0bi-xZ-lD1" secondAttribute="centerX" id="M1w-Cx-naI"/>
                             <constraint firstItem="Fsu-2J-GsH" firstAttribute="centerX" secondItem="0bi-xZ-lD1" secondAttribute="centerX" id="fkg-QT-oYJ"/>
-                            <constraint firstItem="pjM-hY-nNJ" firstAttribute="centerY" secondItem="0bi-xZ-lD1" secondAttribute="centerY" id="hod-I9-ndm"/>
+                            <constraint firstItem="pjM-hY-nNJ" firstAttribute="leading" secondItem="0bi-xZ-lD1" secondAttribute="leading" constant="20" id="iq2-ge-Jmo"/>
                             <constraint firstItem="Fsu-2J-GsH" firstAttribute="leading" secondItem="jwA-TR-QOh" secondAttribute="leading" constant="15" id="ite-FY-BGV"/>
-                            <constraint firstItem="jwA-TR-QOh" firstAttribute="trailing" secondItem="pjM-hY-nNJ" secondAttribute="trailing" constant="15" id="qyQ-OY-Hm6"/>
+                            <constraint firstItem="Fsu-2J-GsH" firstAttribute="top" secondItem="0c7-am-fpI" secondAttribute="bottom" constant="50" id="t0j-rH-hDC"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="jwA-TR-QOh"/>
                     </view>
                     <connections>
                         <outlet property="montoCRC" destination="RWT-7f-w2j" id="0aK-tL-AJU"/>
                         <outlet property="montoUSD" destination="K3i-EV-yUj" id="pef-49-akk"/>
+                        <outlet property="montos" destination="HVk-e6-RZe" id="izf-81-eat"/>
+                        <outlet property="nombreBancoCalc" destination="0c7-am-fpI" id="lbv-YH-KvM"/>
                         <outlet property="prCompra" destination="Ffs-Ju-AQz" id="WjM-nv-tJp"/>
                         <outlet property="prVenta" destination="oLS-QC-ftp" id="GsV-G2-lF6"/>
+                        <outlet property="viewCRC" destination="n4p-hn-Pyv" id="wRh-Yq-CzP"/>
+                        <outlet property="viewUSD" destination="Jul-5r-DZk" id="JD8-3h-96X"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ivI-6K-q1h" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
