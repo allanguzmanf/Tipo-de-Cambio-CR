@@ -16,7 +16,7 @@ class CalculadoraViewController: UIViewController {
     @IBOutlet weak var prVenta: UILabel!
     @IBOutlet weak var prCompra: UILabel!
     var prVentaText:String!
-     var prCompraText:String!
+    var prCompraText:String!
     
     
     override func viewDidLoad() {
